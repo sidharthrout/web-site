@@ -1,0 +1,195 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+.d-none{
+    display: none;
+}
+.before{
+    background: url('./bg_open.jpg');
+}
+.before img{
+    margin: 38vh 42vw;
+}
+.main{
+    background-image: url('./bg.jpg');
+}
+nav ul li{
+    display: inline;
+}
+nav ul{
+    margin-left: auto;
+}
+.main nav{
+    background-color: transparent;
+    font-size: 20px;
+}
+.myFont{
+    font-size: 20px;
+}
+.text-heading{
+    padding: 100px 250px;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+}
+.link a{
+    color:black
+}
+.container{
+    padding: 20px 150px;
+}
+.container2{
+    padding: 20px 100px;
+}
+.one{
+    font-size: 76px ;
+    z-index: -1;
+}
+.two{
+    font-size: 10px;
+    font-weight: 800;
+    
+}
+.tw{
+    position: relative;
+    z-index: 2;
+    height:80px;
+    background: url('./bg.jpg');
+}
+.three{
+    font-size: 18px;
+    padding: 10px 85px;
+}
+
+.img2 img{
+    display: inline-block;
+    margin-left: 175px;
+}
+.title{
+    padding:40px 20px ;
+    text-align: center;
+    font-size: 35px;
+}
+.box{
+    width:600px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+.innerBox{
+    background:url('./bg_cource.jpg');
+    padding: 20px;
+    width:500px;
+    margin: 10px auto;
+}
+input[type="submit"]{
+    width:400px;
+    height: 60px;
+    background-color: rgb(248, 12, 12);
+    padding: 10px;
+    color: aliceblue;
+    display: inline-block;
+    margin: 5vw 36vw;
+    text-align: center;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #ff4747;
+}
+table td,table th{
+    padding: 2px 5px ;
+}
+.img3{
+    width:1000px;
+    margin: 10px auto;
+    text-align: center;
+}
+.foot{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.mar{
+    margin-top: 200px ;
+}
+iframe{
+    padding-top: 30px;
+    height: 600px;
+}
+footer{
+    padding-top: 200px;
+}
+@media screen and (max-width:700px) and (min-width:300px) 
+{
+    .text-heading{
+        padding: 100px 40px;
+    }
+    .mar{
+        margin-top:100px;
+    }
+    .container2{
+        padding: 20px 40px;
+    }
+    .container{
+        padding: 20px 40px;
+    }
+    .img1 img{
+        width:288px;
+        height:205px;
+    }
+    .img2 img{
+        width:288px;
+        height:205px;
+        margin-left:0px;
+    }
+    .box{
+        width:80vw;
+    }
+    .innerBox{
+        width:80vw;
+    }
+    .under{
+        font-size: 10px;
+    }
+    .img3{
+        width:82vw;
+    }
+    .img3 img{
+        width:253px
+    }
+    .three{
+        padding: 10px 0px;
+    }
+    .p-5{
+        padding: 10px 0px !important;
+    }
+    .img4 img{
+        width:288px;
+        height:405px;
+    }
+    .foot{
+        padding-top: 20px;
+    }
+
+    .before{
+        background: url('./bg_open.jpg');
+         width: 100%;
+        }
+
+}
+
+.done{
+    height: 103vh;
+    overflow: hidden;
+}
